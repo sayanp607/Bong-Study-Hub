@@ -1,0 +1,804 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+}
+/* .testbank{
+  text-align: left;
+  margin-left: 50px;
+  background-color: #a8dbf5;
+  margin-top: 50px;
+  height: 400px;
+  margin-right: 50px;
+}
+.testbank:hover{
+  background-color: yellow;
+} */
+.testbank {
+  text-align: left; /* Aligns text to the left */
+  margin-left: 50px; /* Adds space on the left side */
+  margin-right: 50px; /* Adds space on the right side */
+  margin-top: 50px; /* Adds space on top */
+  background-color: #a8dbf5; /* Light blue background */
+  padding: 20px; /* Adds padding inside the div */
+  border-radius: 10px; /* Rounds the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.testbank h1 {
+  font-size: 24px; /* Adjust size for the main heading */
+  font-weight: bold;
+  color: #333; /* Darker color for better readability */
+  margin-bottom: 20px; /* Space below the main heading */
+}
+
+.testbank h2 {
+  font-size: 18px; /* Adjust size for subheadings */
+  color: #555; /* Slightly lighter color for subheadings */
+  margin-bottom: 10px; /* Space below each subheading */
+}
+.testbank:hover{
+  background-color: orange;
+}
+.saarthi {
+  text-align: left; /* Aligns text to the left */
+  margin-left: 50px; /* Adds space on the left side */
+  margin-right: 50px; /* Adds space on the right side */
+  margin-top: 50px; /* Adds space on top */
+  background-color: #f196dc; /* Light blue background */
+  padding: 20px; /* Adds padding inside the div */
+  border-radius: 10px; /* Rounds the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.saarthi h1 {
+  font-size: 24px; /* Adjust size for the main heading */
+  font-weight: bold;
+  color: #333; /* Darker color for better readability */
+  margin-bottom: 20px; /* Space below the main heading */
+}
+
+.saarthi h2 {
+  font-size: 18px; /* Adjust size for subheadings */
+  color: #555; /* Slightly lighter color for subheadings */
+  margin-bottom: 10px; /* Space below each subheading */
+}
+.saarthi:hover{
+  background-color: rgb(150, 235, 174);
+}
+header {
+  display: flex;
+  background-color: #ffffff;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b6b1b1;
+}
+.myntra_home {
+  height: 45px;
+}
+.logo_container {
+  margin-left: 2%;
+}
+.action_bar {
+  margin-right: 4px;
+}
+.nav_bar {
+  display: flex;
+  width: 700px;
+  justify-content: space-evenly;
+}
+.nav_bar a {
+  font-size: 14px;
+  letter-spacing: .3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 2px 0;
+  border-bottom: 5px solid #ffffff;
+}
+.nav_bar a:hover {
+  border-bottom: 4px solid #071a95;
+}
+
+.nav_bar a sup {
+  color: #ff3f6c;
+  font-size: 10px;
+}
+
+.search_bar {
+  height: 40px;
+  min-width: 200px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.search_icon {
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+
+  background-color: #f5f5f6;
+  color: #282c3f;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+}
+.search_input {
+  color: #696e79;
+  background-color: #f5f5f6;
+  flex-grow: 1;
+  height: 40px;
+  border: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.action_bar {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+
+.action_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main section */
+.banner_container {
+  margin: 40px 0;
+}
+.banner_image {
+  width: 100%;
+}
+.refundtxt {
+  text-align: center;
+  background-color: #f2a0a0;
+  color: #141111;
+  padding: 20px;
+  margin: 20px;
+  max-width: 800px;
+  border-radius: 8px;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.refundtxt h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.refundtxt p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media (max-width: 480px) {
+  .refundtxt {
+    margin: 10px; /* Smaller margin for very small screens */
+    padding: 15px; /* Slightly smaller padding */
+    font-size: 14px; /* Slightly smaller font size */
+  }
+}
+
+
+.category_heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+.category-items, .items-container {
+  width: 80%;
+  margin: 50px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sale_item {
+  width: 250px;
+}
+
+.footer_container {
+  padding: 100px 0px 40px 0px;
+  background: #589add;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_column h3 {
+  color: #282c3f;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.footer_column a {
+  color: #696b79;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.copyright {
+  color: #94969f;
+  text-align-last: left;
+  padding: 15px;
+}
+
+.items-container {
+  width: 80%;
+  margin: 40px 10%;
+}
+.item-container {
+  width: 250px;
+  margin: 10px;
+}
+.item-image {
+  width: 100%;
+}
+.rating {
+  font-size: 12px;
+  font-weight: 700;
+}
+.company-name {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  color: #282c3f;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.item-name {
+  color: #535766;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  display: block;
+}
+.price {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #282c3f;
+  white-space: nowrap;
+}
+.current-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+}
+.original-price {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.discount {
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.btn-add-bag {
+  margin-top: 8px;
+  font-size: 18px;
+  width: 100%;
+  background-color: lightgreen;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bag-item-count {
+  background-color: #f16565;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 18px;
+  padding: 0 6px;
+  height: 18px;
+  position: relative;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  left: 13px;
+  top: -44px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.action_container {
+  text-decoration: none;
+}
+a.action_container:link {
+  color:black;
+}
+.bag-items-container {
+  display: inline-block;
+  width: 64%;
+  padding-right: 20px;
+  border-right: 1px solid #eaeaec;
+  padding-top: 32px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.42857143;
+}
+
+.bag-page {
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+.bag-summary {
+  vertical-align: top;
+  display: inline-block;
+  width: 35%;
+  padding: 24px 0 0 16px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.42857143;
+}
+
+.bag-details-container {
+  margin-bottom: 16px;
+}
+
+.price-header {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 24px 0 16px;
+  color: #535766;
+}
+
+.price-item {
+  margin-bottom: 12px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #282c3f;
+}
+
+.price-item-value {
+  float: right;
+}
+
+.priceDetail-base-discount {
+  color: #03a685;
+}
+
+.price-footer {
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 16px;
+  border-top: 1px solid #eaeaec;
+  color: #3e4152;
+  line-height: 16px;
+}
+
+.btn-place-order {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  border-width: 0px;
+  padding: 10px 16px;
+  background-color: rgb(255, 63, 108);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.bag-item-container {
+  margin-bottom: 8px;
+  background: #fff;
+  font-size: 14px;
+  border: 1px solid #eaeaec;
+  border-radius: 4px;
+  position: relative;
+  padding: 12px 12px 0;
+}
+
+.item-left-part {
+  position: absolute;
+  background: rgb(255, 242, 223);
+  height: 148px;
+  width: 111px;
+}
+
+.item-right-part {
+  padding-left: 12px;
+  position: relative;
+  min-height: 148px;
+  margin-left: 111px;
+  margin-bottom: 12px;
+}
+
+.bag-item-img {
+  width: 100%;
+}
+
+.return-period {
+  display: inline-flex;
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+.return-period-days {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.delivery-details {
+  margin-top: 5px;
+  color: #282c3f;
+  font-size: 12px;
+  letter-spacing: -.1px;
+  margin-bottom: 8px;
+  line-height: 15px;
+}
+
+.delivery-details-days {
+  color: #03a685;
+}
+
+.remove-from-cart {
+  position: absolute;
+  font-size: 25px;
+  top: 10px;
+  right: 18px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.spinner {
+  margin: 100px 0px;
+}
+.main {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.font {
+  font-size: 30px; /* Responsive font size */
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.introduction {
+  background-color: #f54e77;
+  height: 580px;
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px; /* Add some padding */
+  border-radius: 15px;
+  border-style: dashed;
+  max-width: 90%; /* Ensure it doesn't go too wide */
+}
+
+.introduction:hover {
+  background-color: #fefc7b;
+  border-color: rgb(218, 5, 5);
+}
+
+.image {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+.introtxt {
+  justify-content: center;
+  margin: 50px auto 0 auto; /* Center horizontally */
+  padding: 20px; /* Add padding for better text readability */
+  background-color: #6aedf6;
+  border-radius: 20px;
+  max-width: 90%; /* Ensure it doesn't go too wide */
+}
+
+.introtxt:hover {
+  background-color: rgb(154, 244, 154);
+}
+
+/* .main{
+  text-align: center;
+ 
+  margin-top: 40px;
+}
+.font{
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+.introduction{
+  background-color:  #f54e77;
+  height:580px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 15px;
+  border-style:dashed;
+}
+.introduction:hover{
+  background-color: #dcfa96;
+  border-color: rgb(218, 5, 5);
+}
+.image{
+  height: 400px;
+  width: 400px;
+} */
+.heading{
+  text-align: center;
+  height: 60px;
+  text-decoration: underline;
+}
+/*  */
+
+.testpic {
+  border-color: #ff3f6c;
+  border-style: dotted;
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  margin-top: 40px;
+}
+
+.men {
+  text-align: center;
+}
+
+.graphic1 {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px; /* Space between the image and the button */
+}
+
+.button1, .button2 {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px; /* Space between the image and the button */
+}
+
+
+/* Optional: Add some responsiveness if needed */
+@media (max-width: 768px) {
+  .button1, .button2 {
+    width: 80%; /* Adjust button width for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .graphic1 {
+    width: 80%;
+    /* Adjust width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+
+/* Ensure button and image stack properly on smaller screens */
+
+/* .introtxt{
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 150px;
+  background-color: #e9e2b9;
+  border-radius: 20px;
+}
+.introtxt:hover{
+  background-color: rgb(140, 231, 140);
+} */
+
+.tips{
+  background-color: yellow;
+  width: 300px;
+  text-align: center;
+}
+/*  */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Optional: Add some responsiveness if needed */
+@media (max-width: 768px) {
+  .button {
+      width: 80%; /* Adjust button width for smaller screens */
+  }
+}
+
+
+.submit,.about,.getintouch{
+  text-align: center;
+  height: 100px;
+}
+.about{
+  margin-top: 100px;
+}
+.bsh{
+  background-color: #e9e2b9;
+  border-radius: 10px;
+  padding: 20px; /* Adds padding inside the box */
+  margin: 0 auto; /* Center horizontally */
+  max-width: 800px; 
+}
+.study{
+  text-align: center;
+  height: 200px;
+  margin-top: 30px;
+}
+/* .nopdf{
+  background-color: greenyellow;
+  border-radius: 15px;
+  /* margin-left: 400px;
+  margin-right: 200px; */
+  /* height: 50px;
+  margin: auto;
+  padding:10px ;
+margin-left: 200px;
+margin-right: 200px; */
+/* } */ 
+.nopdf {
+    background-color: greenyellow;
+    border-radius: 15px;
+    height: 50px;
+    padding: 10px;
+    margin: auto; /* Center horizontally */
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center; /* Center text */
+}
+
+/* Add responsiveness for mobile devices */
+@media (max-width: 768px) {
+    .nopdf {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto; /* Let the width adjust based on screen size */
+    }
+}
+
+.testimg{
+  height: 500px;
+  width: 500px;
+}
+
+
+/* sign up css-->*/
+
+.container {
+  max-width: 400px;
+  margin: 50px auto; /* Auto margins for horizontal centering */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center child elements (button) horizontally */
+}
+
+/* Center the heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Form elements styling */
+label {
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Center the button */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  align-self: center; /* Center the button within the form */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.ask{
+  margin-top: 20px;
+}
+
+.signup{
+  margin-top: 50px;
+}
+.form1,.form2,.form3,.form4{
+  margin-left: 0px;
+  padding: 15px;
+}
+.mentortxt {
+  width: 90%; /* Adjusts width relative to the parent container */
+  max-width: 700px; /* Limits the maximum width */
+  margin: 20px auto; /* Centers the container and adds top and bottom margins */
+  background-color: #c5ebc5; /* Sets background color */
+  padding: 20px; /* Adds padding inside the container */
+  border-radius: 10px; /* Rounds the corners */
+  text-align: center; /* Centers the text */
+}
+
+.txt2 {
+  width: 90%; /* Adjusts width relative to the parent container */
+  max-width: 700px; /* Limits the maximum width */
+  margin: 10px auto; /* Centers the container and adds top and bottom margins */
+  background-color: #f5f5f5; /* Sets background color */
+  padding: 15px; /* Adds padding inside the container */
+  border-radius: 10px; /* Rounds the corners */
+  line-height: 1.6; /* Improves readability */
+  font-size: 18px; /* Sets a base font size */
+}
+.txt2:hover{
+  background-color: #f2a0a0;
+}
+
+.txt2 h2 {
+  margin-bottom: 10px; /* Adds space below each heading */
+}
+
+.wplogo {
+  width: 20px; /* Sets the width of the image */
+  vertical-align: middle; /* Aligns the image vertically with the text */
+  margin-left: 5px; /* Adds space between the text and image */
+}

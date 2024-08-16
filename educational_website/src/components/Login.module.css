@@ -1,0 +1,67 @@
+/* Center the entire form container on the page */
+.container {
+  max-width: 400px;
+  margin: 50px auto; /* Center container horizontally */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements horizontally */
+}
+
+/* Center the heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the form elements horizontally */
+}
+
+/* Form element container to align input fields consistently */
+.form-group {
+  width: 100%;
+  max-width: 300px; /* Controls the width of input fields */
+  margin-bottom: 15px; /* Space between fields */
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style the button */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  align-self: center; /* Center the button within the form */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
